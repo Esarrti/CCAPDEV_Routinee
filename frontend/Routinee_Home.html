@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+    <script src="Calendar_script.js"></script>
+    <link rel="stylesheet" href="/Home_css.css" />
+    <title>Routinee Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo">Routinee</div>
+      <div class="menu">
+        <button><a href="Routinee_Home.html">Home</a></button>
+        <button><a href="Routinee_Profile_1.html">Profile</a></button>
+        <button><a href="Routinee_Achievements.html">Achievements</a></button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="calendar">
+        <h2>Hello, User. This is your calendar for today.</h2>
+        <div id="calendar"></div>
+      </div>
+
+      <div class="tasks">
+        <h2 style="color: black">Missions & Tasks</h2>
+        <div class="mission">
+          <b>Daily Mission 1</b>
+          <p>Complete scheduled routine <i>"Workout Routine"</i>.</p>
+          <p><i>Progress: Completed! +100XP</i></p>
+        </div>
+        <div class="mission">
+          <b>Daily Mission 2</b>
+          <p>Create a new Routinee task</p>
+          <p><i>Progress: Completed! +100XP</i></p>
+        </div>
+        <div class="mission">
+          <b>Daily Mission 3</b>
+          <p>Complete scheduled routine <i>"Drink 8 Glasses of Water"</i>.</p>
+          <p><i>Progress: Not Complete</i></p>
+          <p><i>Reward: 100XP</i></p>
+        </div>
+        <div class="mission">
+          <b>Weekly Mission 1</b>
+          <p>
+            Schedule and complete three routinees for the week. (In Three
+            Separate Days)
+          </p>
+          <p><i>Progress: Not Complete</i></p>
+          <p><i>Reward: 500XP</i></p>
+        </div>
+        <div class="mission">
+          <b>Weekly Mission 2</b>
+          <p>
+            Routine Consistency: Complete all planned Routinees for the week.
+          </p>
+          <p><i>Progress: Not Complete</i></p>
+          <p><i>Reward: 1000XP</i></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="addEventPopup" class="popup">
+      <div class="popup-content">
+        <h2>Add Event</h2>
+        <form id="addEventForm">
+          <input
+            type="text"
+            id="eventTitle"
+            placeholder="Event Title"
+            required
+          />
+          <button type="submit">Add</button>
+          <button id="closePopupButton">Cancel</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

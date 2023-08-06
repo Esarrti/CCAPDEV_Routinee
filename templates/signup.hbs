@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up for Routinee!</title>
+    <link rel="stylesheet" href="/login.css" />
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <h2>Sign-up for Routinee</h2>
+
+      <form action="/signup" method="post">
+
+        <div class="input-box">
+          <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            style="border-radius: 8px"
+          />
+        </div>
+        <p style="margin-top: -5px; font-size: 15px;"><i>Your username will be
+            used to log in.</i></p>
+        <div class="input-box">
+          <input type="password" name="password" placeholder="Password" />
+        </div>
+        <div class="input-box">
+          <input type="text" name="nickname" placeholder="Nickname" />
+        </div>
+        <div class="input-box">
+          <input type="date" name="birthday" placeholder="Birthday" />
+        </div>
+        <div class="input-box">
+          <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="input-box button">
+          <input type="Submit" value="Signup Now!" />
+        </div>
+        <div class="text">
+          Already have an account?
+          <a href="/">Login now!</a>
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>

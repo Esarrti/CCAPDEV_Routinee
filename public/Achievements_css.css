@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(blue-background.jpg);
+  background-size: cover;
+  color: #000000;
+}
+
+.header {
+  background-color: #a1bee0;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.menu {
+  float: right;
+}
+
+.menu button {
+  margin-left: 20px;
+  padding: 5px 10px;
+  background-color: #42526c;
+  border: none;
+  color: #fff;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  margin: 80px auto;
+  padding: 40px;
+  max-width: 1000px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.achievement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.achievement img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.achievement-info {
+  text-align: left;
+}
+
+.achievement-info h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.achievement-info p {
+  margin: 0;
+}

@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "64be67352dc5dfde2465c78d"
+  },
+  "username": "biskite",
+  "password": "candycrush",
+  "nickname": "Mica Gutierrez",
+  "birthday": {
+    "$date": "2003-10-13T00:00:00.000Z"
+  },
+  "gender": "Female",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64be67732dc5dfde2465c791"
+  },
+  "username": "RommelSalen",
+  "password": "12345678",
+  "nickname": "Rommel Salen",
+  "birthday": {
+    "$date": "2022-02-02T00:00:00.000Z"
+  },
+  "gender": "Male",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64be6b59155ff71a3f1cb996"
+  },
+  "username": "Esarrti",
+  "password": "password",
+  "nickname": "Justin Floyd",
+  "birthday": {
+    "$date": "2021-01-01T00:00:00.000Z"
+  },
+  "gender": "Male",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64be6c508b12d1cb4cbb504d"
+  },
+  "username": "Frank23",
+  "password": "ILoveMusic",
+  "nickname": "Frank Ocean",
+  "birthday": {
+    "$date": "1994-02-20T00:00:00.000Z"
+  },
+  "gender": "Other",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64be6c788b12d1cb4cbb504f"
+  },
+  "username": "PikaChew",
+  "password": "thunderbolt",
+  "nickname": "Lightning Rat",
+  "birthday": {
+    "$date": "2021-11-21T00:00:00.000Z"
+  },
+  "gender": "Female",
+  "__v": 0
+}]
