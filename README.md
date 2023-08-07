@@ -20,6 +20,7 @@ INSTALLED MODULES:
 2. HBS - Handlebar JS contains HTML code, while allowing the use of handlebars to further enhance the functionality of the login and signup process
 3. Mongoose - Mongoose is an ODM library that will help connect to the database of MongoDB. This'll translate the code from MongoDB to the Node.js servers
 4. Nodemon - Nodemon is the main tool that'll help with the development of Node.js
+5. Bcrypt - This will allow for password hashing without any issue whatsoever. It will make it hard for it to be decoded.
 
 ---
 
